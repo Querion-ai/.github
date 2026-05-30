@@ -1,35 +1,47 @@
-# Querion
+<h1 align="center">Querion</h1>
 
-### The Science of Querying AI
+<p align="center"><strong>The Science of Querying AI</strong></p>
 
-**Querion** is a modular AI development infrastructure platform that optimizes, secures, routes, and governs AI prompts across the entire LLM lifecycle.
+<p align="center">
+A modular AI development infrastructure platform that <strong>optimizes, secures, routes, and governs</strong> AI prompts across the entire LLM lifecycle — delivered as five independently-sellable products on one shared foundation.
+</p>
 
-It is delivered as five independently-sellable products, built on one shared foundation library, and surfaced through one developer-tooling suite.
-
----
-
-## Products
-
-| Product | What it does |
-|---------|--------------|
-| **Optimize** | Prompt analysis, scoring, rule-based & LLM optimization, semantic compression, cost intelligence, and session intelligence |
-| **Secure** | Prompt-injection detection and data-leakage (PII / secret) scanning |
-| **Gateway** | Multi-provider AI gateway (built on LiteLLM) with automatic optimization and security |
-| **Govern** | Enterprise governance, RBAC, audit, cost attribution, and EU AI Act compliance |
-| **Academy** | Gamified prompt-engineering education — 45 challenges across five skill levels |
-
-## Developer Tools
-
-CLI · MCP server (for Claude Code / Cursor / Windsurf) · browser extension · desktop assistants · IDE integrations.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-async-009688?logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-App_Router-000000?logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-15-4169E1?logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LiteLLM-gateway-FFD21E"/>
+  <img src="https://img.shields.io/badge/MCP-server-7C3AED"/>
+</p>
 
 ---
 
-## Documentation
+### 🧩 Five products, one platform
 
-📖 **Full platform documentation:** [github.com/Querion-ai/querion](https://github.com/Querion-ai/querion)
+| | Product | What it does |
+|---|---------|--------------|
+| 🧠 | **Optimize** | Prompt analysis, scoring, optimization, compression & cost intelligence |
+| 🛡️ | **Secure** | Prompt-injection detection & data-leakage scanning |
+| 🚦 | **Gateway** | Multi-provider AI gateway (LiteLLM) with auto optimization + security |
+| 🏛️ | **Govern** | Enterprise governance, RBAC, audit & EU AI Act compliance |
+| 🎓 | **Academy** | Gamified prompt-engineering education |
 
-The documentation hub explains the architecture, how the products fit together, local setup, the API surface of each service, and the developer tooling.
+Plus a full **developer-tooling suite**: CLI · MCP server · browser extension · desktop assistants.
 
 ---
 
-> *Proprietary & Confidential. Product repositories are private.*
+### 📊 At a glance
+
+`~67,000 lines` · `7 repositories` · `5 products` · `59 API endpoints` · `23 database tables`
+
+**Stack:** Python · FastAPI · SQLAlchemy (async) · Next.js · TypeScript · PostgreSQL · Redis · LiteLLM · MCP · Docker
+
+---
+
+### 📖 Learn more
+
+The full platform overview, architecture, and engineering decisions live in the **[querion](https://github.com/Querion-ai/querion)** documentation hub.
+
+Product repositories are private. For access, a demo, or to collaborate → **[deeprohit.netlify.app](https://deeprohit.netlify.app)**
